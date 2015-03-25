@@ -1,7 +1,7 @@
 module RakeRefactor
   class Railtie < Rails::Railtie
     rake_tasks do
-      load "lib/tasks/refactor.rake"
+      load "tasks/refactor.rake"
     end
   end
 end
