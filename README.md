@@ -7,16 +7,12 @@ Refactor your Ruby projects
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rake_refactor'
+gem 'rake_refactor', git: 'https://github.com/milabent/rake_refactor.git'
 ```
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install rake_refactor
 
 ## Usage
 
